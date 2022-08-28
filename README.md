@@ -33,4 +33,15 @@ sudo apt install tomcat9-examples
 //ps -ef | grep tomcat
 </pre></code>
 
+
+tomcat systemctl : ubuntu
+---
+
+<pre><code>
+sudo systemctl start tomcat9
+sudo systemctl restart tomcat9
+sudo systemctl stop tomcat9
+systemctl status tomcat9
+</pre></code>
+
 ***
