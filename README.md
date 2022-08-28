@@ -33,6 +33,7 @@ sudo apt install tomcat9-admin
 sudo apt install tomcat9-examples
 
 //ps -ef | grep tomcat
+//sudo find / -name webapps
 </pre></code>
 
 
