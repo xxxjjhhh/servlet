@@ -15,6 +15,8 @@ sudo apt install default-jdk
 
 //compile
 //javac file.java
+//ls
+//java file
 </pre></code>
 
 tomcat
