@@ -1,0 +1,12 @@
+<servlet>
+  <servlet-name>post</servlet-name> //서블릿 파일 이름 대치
+  <servlet-class>postfile</servlet-class> //classes에 있는 서블릿 파일
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>post</servlet-name> //대치된 이름
+  <url-pattern>/getpost</url-pattern> //get 요청
+</servlet-mapping>
+
+
+//start.bat
