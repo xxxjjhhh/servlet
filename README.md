@@ -29,6 +29,8 @@ sudo apt install tomcat9-docs
 sudo apt install tomcat9-user
 sudo apt install tomcat9-admin
 sudo apt install tomcat9-examples
+
+//ps -ef | grep tomcat
 </pre></code>
 
 ***
