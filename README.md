@@ -12,6 +12,9 @@ java -version
 
 sudo apt update
 sudo apt install default-jdk
+
+//compile
+//javac file.java
 </pre></code>
 
 tomcat
