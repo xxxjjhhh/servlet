@@ -10,3 +10,19 @@ public class main extends HttpServlet {
   }
 }
 
+
+
+//compile option (error)
+javac -cp 위치servlet-api.jar servlet_main.java
+javac -cp /apache-tomcat-9.0/lib/servlet-api.jar servlet_main.java
+
+//class파일 생성
+//location
+
+WEB-INF 폴더
+/ ROOT
+    /index.html
+    / WEB-INF
+        / web.xml
+        / classes
+            / servlet_main.java
