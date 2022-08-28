@@ -23,6 +23,8 @@ tomcat
 ---
 
 <pre><code>
+sudo apt-cache search tomcat
+
 sudo apt update
 sudo apt install tomcat9
 sudo apt install tomcat9-docs
