@@ -47,4 +47,12 @@ sudo systemctl stop tomcat9
 systemctl status tomcat9
 </pre></code>
 
+tomcat config
+---
+
+<pre><code>
+cd /var/lib/tomcat9/conf/server.xml
+
+</pre></code>
+
 ***
