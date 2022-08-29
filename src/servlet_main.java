@@ -6,7 +6,9 @@ public class main extends HttpServlet {
   
   public void service(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
     
-    System.out.println("hi");
+    //System.out.println("hi");
+    
+    OutputStream os = response.getOutputStream();
   }
 }
 
