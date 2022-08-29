@@ -11,3 +11,9 @@ public class main extends HttpServlet {
     out.println("hi");
   }
 }
+
+
+//web.xml setting
+
+<web-app xmlns>
+metadata-complete="false"> setting (default true)
