@@ -6,6 +6,8 @@ public class main extends HttpServlet {
   
   public void service(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
     
+    response.setCharacterEncoding("UTF-8");
+    response.setContentType("text/html; charset=UTF-8");
     //System.out.println("hi");
     //OutputStream os = response.getOutputStream();
     
