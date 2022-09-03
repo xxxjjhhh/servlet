@@ -1,3 +1,5 @@
+//저장 범위 가장 큼 : 서버가 종료되어야 기억내용 삭제
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
