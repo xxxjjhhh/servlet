@@ -35,3 +35,4 @@ public class servletFilter implements Filter {
 </filter-mapping>
 
 -> Annotation : 
+  @WebFilter("/endPoint")
