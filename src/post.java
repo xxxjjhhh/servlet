@@ -10,7 +10,7 @@ public class main extends HttpServlet {
     response.setCharacterEncoding("UTF-8");
     response.setContentType("text/html; charset=UTF-8");
     
-    request.setCharacterEncoding("UTF-8");
+    request.setCharacterEncoding("UTF-8"); //request utf-8 setting
     int keyword = Interger.parseInt(request.getParameter("keyword");)
     
     PrintWriter out = response.getWriter();
