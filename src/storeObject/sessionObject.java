@@ -1,3 +1,5 @@
+//생명주기 : 접속한 사용자가 다르면 다른 저장공간
+
 import javax.servlet.http;
 
 //중략
