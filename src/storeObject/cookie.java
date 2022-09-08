@@ -14,6 +14,7 @@ if (cookies != null)
     if("keyword".equals(cookie.getName())){
       element = cookie.getValue();
       break;
+      // 쿠키 저장 객체 name : value로 getName : getValue로 얻음
     }
 
 //timeout : cookie.setMaxAge(60);
