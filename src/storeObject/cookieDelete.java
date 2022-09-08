@@ -1,0 +1,1 @@
+cookie.setMaxAge(0);
