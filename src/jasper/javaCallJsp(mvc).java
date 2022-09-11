@@ -13,6 +13,7 @@ public class main extends HttpServlet {
     RequestDispatcher rd = request.getRequestDispatcher("/jsp/post1.jsp");
     request.setAttribute("key1", "값1");
     request.setAttribute("key2", "값2");
+    request.setAttribute("key3", "값3");
     
     rd.forward(request, response);
   }
@@ -32,5 +33,6 @@ public class main extends HttpServlet {
   <body>
   	${key1}<br>
   	${key2}<br>
+    <%= request.getAttribute("key3") %>
   </body>
 </html>
