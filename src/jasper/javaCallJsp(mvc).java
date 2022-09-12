@@ -36,3 +36,6 @@ public class main extends HttpServlet {
     <%= request.getAttribute("key3") %>
   </body>
 </html>
+
+//범위 기반
+${requestScope.key3}
