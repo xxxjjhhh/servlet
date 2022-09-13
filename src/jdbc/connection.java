@@ -15,7 +15,7 @@ public class Connect {
     Statement st = con.createStatement(); //쿼리 입력
     ResultSet rs = st.executeQuery(sql);
     rs.next(); //다음 레코드
-    String title = rs.getString("title");
+    String title = rs.getString("title"); //rs 객체로 부터 값 가져옴
    
    rs.close();
    st.close();
